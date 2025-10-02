@@ -9,6 +9,7 @@ html, body {
     {
         display: flex;
         justify-content: space-between;
+        /* border: 2px solid maroon; */
     }
     .nav-bar
     {
@@ -38,7 +39,9 @@ html, body {
     {
         display: flex;
         /* border: 2px solid maroon; */
-        font-size: 22px;
+        font-size: 25px;
+        width: 10%;
+        /* margin-right: 5%; */
     }
        .home-page
     {
@@ -214,19 +217,37 @@ html, body {
     .review-para
     {
         height: auto;
+        display: flex;
+        flex-direction: column;
         width: 100%;
         border-right: none;
+        /* border: 8px solid maroon; */
+        gap:0;
+        align-items: center;
         
+    }
+    .review-para img{
+        /* border: 2px solid lawngreen; */
+        height: 200px;
+        width: 200px;
     }
     .review-txt
     {
         align-content: center;
+        text-align: center;
+        padding: 10px;
+        /* border: 2px solid midnightblue; */
         
+    }
+      .review-txt h3{
+        /* border: 2px solid khaki; */
+        font-size: 22px ;
     }
     .review-txt p
     {
-        width: 80%;
+        width: 100%;
         /* border: 2px solid maroon; */
+        font-size: 18px;
         text-align: justify;
     }
     
@@ -235,13 +256,34 @@ html, body {
         border-right: none;
         height: auto;
         width: 100%;
+        /* border: 2px solid mediumaquamarine; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        text-align: center;
+    }
+    .right-para{
+        /* border: 2px solid rebeccapurple; */
+        padding: 10px;
+    }
+    .review-right-img img {
+        /* border: 2px solid red; */
+        height: 200px;
+        width: 200px;
     }
     .review-right-img p 
     {
         /* border: 2px solid maroon; */
         text-align: justify;
-       width: 90%;
+       width: 100%;
+       font-size: 18px;
     }
+    .right-para h3{
+        /* border: 2px solid lawngreen; */
+        font-size: 22px;
+    }
+  
    }
        .latest-collection{
         height: auto;
