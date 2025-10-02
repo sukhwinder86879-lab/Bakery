@@ -137,6 +137,7 @@ html, body {
   {
     margin: 10px;
     width: 400px;
+    height: 300px;
   }
    .card-img::before,
    .card-img::after
@@ -148,6 +149,9 @@ html, body {
         width: 100%;
         height: 300px;
         padding: 10px;
+           padding: 15px;
+           word-spacing: 0;
+        letter-spacing: normal;
 
     }
 
@@ -156,13 +160,15 @@ html, body {
         width: 100%;
         height: 50%;
         order: 2;
-        padding: 10px;
+        padding: 15px;
+        letter-spacing: normal;
      }
     .card-delevired
     {
         order: 1;
         margin: 10px;
         width: 400px;
+        height: 300px;
         /* border: 2px solid brown; */
     }
     .card-delevired:hover:after {
@@ -219,7 +225,9 @@ html, body {
     }
     .review-txt p
     {
-        width: 100%;
+        width: 80%;
+        /* border: 2px solid maroon; */
+        text-align: justify;
     }
     
     .review-right-img
@@ -227,10 +235,12 @@ html, body {
         border-right: none;
         height: auto;
         width: 100%;
-     }
+    }
     .review-right-img p 
     {
-       width: 100%;
+        /* border: 2px solid maroon; */
+        text-align: justify;
+       width: 90%;
     }
    }
        .latest-collection{
@@ -269,14 +279,19 @@ html, body {
        }
        .bread-img{
         width: 80%;
-       }
-       .bread-img2{
+        /* border: 2px solid maroon; */
+        margin-left: 15px;
+    }
+    .bread-img2{
         width: 80%;
-       }
-       .bread-img3{
+        margin-left: 15px;
+    }
+    .bread-img3{
+        margin-left: 15px;
         width: 80%;
-       }
-       .bread-img4{
+    }
+    .bread-img4{
+           margin-left: 15px;
         width: 80%;
         /* border: 2px solid maroon; */
        }

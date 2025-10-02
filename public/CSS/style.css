@@ -21,7 +21,10 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
+ 
 }
+
 .logo
 {
     height: auto;
@@ -43,7 +46,11 @@ header{
     display:  flex;
     font-size: 20px;
     gap: 2rem;
+    /* border: 2px solid black; */
+}
+.nav-bar li a{
     color: #4A1D1F;
+
 }
 .nav-bar :hover
 {
@@ -618,11 +625,13 @@ align-items: center;
     0%{
         transform: translate(200px);
         opacity: 0;
+        transition: 0.5s;
      
     }
     100%{
             transform: translate(0px);
             opacity: 1;
+            transition: 0.5s;
     }
 }
 #section6{
